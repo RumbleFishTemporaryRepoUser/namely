@@ -18,6 +18,7 @@ public class PersonQueryService {
     }
 
     public Optional<String> findLatestName() {
-        return personRepository.findTopByOrderByIdDesc().map(Person::getName);
+        return personRepository.findTopNameByOrderByIdDesc()
+                .map(Person::getName);
     }
 }

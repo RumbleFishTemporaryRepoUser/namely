@@ -7,5 +7,6 @@ import java.util.Optional;
 
 public interface PersonRepository extends PagingAndSortingRepository<Person, Integer> {
 
-    Optional<Person> findTopByOrderByIdDesc();
+
+    Optional<Person> findTopNameByOrderByIdDesc(); //tu możnaby też poczarować np. w Criteria Query i pobrać samo imię
 }

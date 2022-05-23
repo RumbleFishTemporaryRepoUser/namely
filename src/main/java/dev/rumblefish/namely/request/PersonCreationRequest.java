@@ -1,8 +1,8 @@
 package dev.rumblefish.namely.request;
 
 import lombok.*;
+import org.hibernate.validator.constraints.Length;
 
-import javax.validation.constraints.Max;
 import javax.validation.constraints.NotBlank;
 
 @Getter
@@ -13,6 +13,6 @@ import javax.validation.constraints.NotBlank;
 public class PersonCreationRequest {
 
     @NotBlank
-    @Max(100)
+    @Length(max = 30)
     private String name;
 }
