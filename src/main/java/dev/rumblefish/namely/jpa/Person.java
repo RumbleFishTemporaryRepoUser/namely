@@ -31,7 +31,7 @@ public class Person {
     @Column
     @Basic(optional = false)
     @DateTimeFormat(pattern = "yyyy-MM-dd'T'HH:mm:ssZ")
-    private ZonedDateTime creationDate;
+    private ZonedDateTime creationDate; // to pole można wydzielić do osobnej klasy, po której Person i inne klasy by dziedziczyły
 
     @PrePersist
     void prePersistTimestampEntity() {
