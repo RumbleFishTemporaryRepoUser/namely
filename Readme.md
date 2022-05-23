@@ -1,0 +1,1 @@
+Uruchomienie przez metodę main w RumbleFishApplication.
