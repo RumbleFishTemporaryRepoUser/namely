@@ -17,7 +17,7 @@ import java.time.ZonedDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 @SuperBuilder
-public class Person  {
+public class Person {
 
     @Id
     @GeneratedValue

@@ -19,7 +19,7 @@ public class PersonCommandController {
     }
 
     @PostMapping("/")
-    public void addName(@RequestBody PersonCreationRequest request){
+    public void addName(@RequestBody PersonCreationRequest request) {
         personCommandService.addName(request.getName());
     }
 
