@@ -12,7 +12,7 @@ Przykładowy curl na pobranie ostatniego imienia
 
 curl --location --request GET 'localhost:8080'
 
-[comment]: <> (ten plik można ładniej 
+P.S. ten plik można ładniej 
 zformatować i opisać dokładniej jak uruchomić aplikację.
-oprócz tego można dodać jakieś ścieżki do endpointów, np. /person
-czy też /v1, jakby się chciało mieć odpowiednio wersję api)
+Oprócz tego można zmienić endpointy, np. dodając do ścieżki /person lub /guest
+i chociażby /v1, jakby się chciało mieć odpowiednio wersjonowane api.
