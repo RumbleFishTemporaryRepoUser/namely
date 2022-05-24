@@ -5,7 +5,7 @@ Przykładowy curl na dodanie imienia:
 curl --location --request POST 'localhost:8080' \
 --header 'Content-Type: application/json' \
 --data-raw '{
-"name":"Patrick"
+"name":"Zbyszek"
 }'
 
 Przykładowy curl na pobranie ostatniego imienia
